@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>Riddle Me This...</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="shortcut icon" href="https://www.goodfreephotos.com/albums/vector-images/treasure-chest-vector-art.png">
+  </head>
+  <body>
+    <div class="center">
+    <h1 id="top"line-height:10px;>Riddle Me This...</h1>
+    </div>
+    <div class="center">
+    <h3 class="rule">Click on the questions if you dare!</h3>
+    <ul>
+      <li class="rule">Where is my bomb?</li>
+      <li class="rule">If you catch me you win!</li>
+      <li class="rule">If you find my bomb you lose!</li>
+      <li class="rule">No Resting Bat Face if you get frustrated...</li>
+    </ul>
+    <table id="table">
+      <tr>
+        <td onclick="treasure(id)" id = "Box0"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box1"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box2"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box3"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box4"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+      </tr>
+      <tr>
+        <td onclick="treasure(id)" id = "Box5"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box6"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box7"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box8"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box9"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+      </tr>
+      <tr>
+        <td onclick="treasure(id)" id = "Box10"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box11"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box12"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box13"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box14"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+      </tr>
+      <tr>
+        <td onclick="treasure(id)" id = "Box15"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box16"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box17"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box18"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box19"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+      </tr>
+      <tr>
+        <td onclick="treasure(id)" id = "Box20"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box21"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box22"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box23"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+        <td onclick="treasure(id)" id = "Box24"> <img src="https://freesvg.org/img/1457633527.png" alt="Image of a question mark" height="100px"> </td>
+      </tr>
+    </table>
+    <br>
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <br>
+    <p class="bottom">Turns Remaining: <a id="counter"></a></p>
+  </div>
+    <footer >
+      <img src="https://live.staticflickr.com/6078/6119066744_f8a22d7f05_n.jpg" alt="Image of Batman" height="300px" id="revenge">
+      <br>
+      <p class="bottom"> Created by Brian, Matt and Chuck</p>
+      <br>
+      <a href="#top"class="bottom">Go to top!</a>
+      <br>
+      <a href="https://www.youtube.com/watch?v=sPCIB7OGLjg" target="_blank"class="bottom">Who are you?</a>
+    </footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+  </body>
+</html>
