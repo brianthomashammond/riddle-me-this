@@ -10,7 +10,6 @@ else if (bombLocation==24 && bombLocation==treasureLocation) {
 var turnCount = 15
 document.getElementById('counter').innerHTML = turnCount
 const treasure = (location) => {
-  //alert(`You clicked box number ${ location }`)
  document.getElementById('counter').innerHTML = turnCount--;
 
   if (location == treasureLocation) {
@@ -34,6 +33,5 @@ const treasure = (location) => {
     document.getElementById(location).innerHTML = '<img src="https://cdn.pixabay.com/photo/2018/02/07/12/42/batman-3137002_960_720.png" alt="Image of batman" height="100px" width="75px">'
     document.getElementById(location).onclick = ""
     document.getElementById('counter').innerHTML = turnCount
-    //setTimeout(() => { alert("Why so Serious???\nYou still have time to find the bomb..."); }, 250);
   }
 }
