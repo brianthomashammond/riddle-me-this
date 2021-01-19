@@ -3,15 +3,18 @@ body{
   background-image: url(https://live.staticflickr.com/1973/45362097031_710ba436e2_b.jpg);
   background-size: cover;
   color: #ae00ab
-
 }
 
-#top{font-size: 75px;
-background: -webkit-linear-gradient(#00ca44, #ae00ab);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;}
+#top{
+  font-size: 75px;
+  margin: 0;
+  background: -webkit-linear-gradient(#00ca44, #ae00ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .rule{
+  margin: 0;
   background: -webkit-linear-gradient(#00ca44, #ae00ab);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -20,16 +23,15 @@ background: -webkit-linear-gradient(#00ca44, #ae00ab);
 .bottom{
   background: -webkit-linear-gradient(#ae00ab, #00ca44);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}
-
+  -webkit-text-fill-color: transparent;
 }
+
 footer{
-font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 .center{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
