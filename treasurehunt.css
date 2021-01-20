@@ -2,7 +2,10 @@ body{
   font-family: 'Lemonada', cursive;
   background-image: url(https://live.staticflickr.com/1973/45362097031_710ba436e2_b.jpg);
   background-size: cover;
-  color: #ae00ab
+}
+
+h1{
+  display: flex;
 }
 
 #top{
@@ -34,4 +37,47 @@ footer{
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+}
+
+.shake{
+  font-size: 75px;
+  margin: 0;
+  background: -webkit-linear-gradient(#00ca44, #ae00ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shake .2s infinite;
+  transform: translate3d(-0.5px, 0, 0);
+}
+
+@keyframes shake {
+  50% {
+    transform: translate3d(0.5px, 0, 0);
+  }
+}
+
+.siren{
+  font-size: 75px;
+  margin: 0 0 0 19px;
+  background: -webkit-linear-gradient(#00ca44, #ae00ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: siren 2s infinite; 
+}
+
+@keyframes siren {
+  25% {
+    background: -webkit-linear-gradient(#00ca44, #ae00ab, #00ca44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  50% {
+    background: -webkit-linear-gradient(#ae00ab, #00ca44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  75% {
+    background: -webkit-linear-gradient(#ae00ab, #00ca44, #ae00ab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
