@@ -13,6 +13,7 @@ h1{
   margin: 0;
   background: -webkit-linear-gradient(#00ca44, #ae00ab);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -20,12 +21,14 @@ h1{
   margin: 0;
   background: -webkit-linear-gradient(#00ca44, #ae00ab);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .bottom{
   background: -webkit-linear-gradient(#ae00ab, #00ca44);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -44,6 +47,7 @@ footer{
   margin: 0;
   background: -webkit-linear-gradient(#00ca44, #ae00ab);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shake .2s infinite;
   transform: translate3d(-0.5px, 0, 0);
@@ -60,6 +64,7 @@ footer{
   margin: 0 0 0 19px;
   background: -webkit-linear-gradient(#00ca44, #ae00ab);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: siren 2s infinite; 
 }
