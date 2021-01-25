@@ -8,6 +8,14 @@ h1{
   display: flex;
 }
 
+ul{
+  list-style: none;
+}
+
+li::before {
+  content: "• ";
+}
+
 #top{
   font-size: 75px;
   margin: 0;
